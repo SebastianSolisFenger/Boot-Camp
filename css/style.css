@@ -73,3 +73,46 @@ h2 {
 .hero-location {
   color: var(--black-t3);
 }
+
+/* THE-BOOT-SEC */
+.the-boot-sec {
+  display: flex;
+  flex-direction: color;
+  align-items: center;
+  padding: 30px 20px 40px 20px;
+  background-color: var(--black-t4);
+  background-size: 48px;
+  background-image: url(/IMG/bg-the-training-black.png);
+}
+
+/* PROFFESIONALS-SECTION
+#proffesionals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.prof-section-title {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+} */
+
+.boot-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.the-boot-title {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.boot-box {
+  display: flex;
+  align-items: center;
+}
