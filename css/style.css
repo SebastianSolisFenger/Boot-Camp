@@ -1,0 +1,29 @@
+:root {
+  --orange: #ec5242;
+  --orange-t2: #ef3f27;
+  --orange-t3: #f9422a;
+  --black: #272a31;
+  --black-t2: #5d5d5d;
+  --black-t3: #484848;
+  --black-t4: #262930;
+  --gray: #d3d3d3;
+  --gray-t2: #f7f7f7;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  display: block;
+  padding: 10px;
+}
