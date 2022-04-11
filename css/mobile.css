@@ -1,0 +1,114 @@
+.menu-box {
+  display: none;
+}
+
+#hero-sec {
+  height: 42vh;
+}
+
+.hamb-toggle {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  border-bottom: 1.5px solid black;
+  border-right: 1.5px solid black;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  z-index: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 17px 18px;
+}
+
+.hamb-toggle img {
+  background-size: 89%;
+  height: 50px;
+}
+
+.menu-box.active {
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 0;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: white; */
+  background: url("/IMG/bg-mobile.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-position: right top;
+  background-size: contain;
+  position: fixed;
+  justify-content: center;
+}
+
+.primary-menu-box {
+  align-self: stretch;
+  /* padding-left: 17vw; */
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.primary-menu-box ul {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-top: 100px;
+  margin-top: 50px;
+  align-items: center;
+  height: 100%;
+  height: 100vh;
+}
+
+.secondary-menu-box {
+  display: none;
+}
+
+.special-a {
+  display: none;
+}
+
+.primary-menu-box-content li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 17px 18px;
+  background-color: white;
+  transition: transform 0.5s ease;
+  width: 80%;
+}
+
+.primary-menu-box-content li:hover {
+  transform: scale(1.1);
+}
+
+.primary-menu-box-content a {
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sing-menu-btn {
+  display: none;
+}
