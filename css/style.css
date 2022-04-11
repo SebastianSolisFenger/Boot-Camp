@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 html {
@@ -26,4 +26,50 @@ html {
 a {
   display: block;
   padding: 10px;
+}
+
+header {
+  position: absolute;
+  max-width: 100vw;
+  padding: 25px 20px;
+}
+h1,
+h2 {
+  font-size: 45px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+/* hero-section */
+
+#hero-sec {
+  background: url("/IMG/bg-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+  padding: 20vh 20px 100px 20px;
+}
+
+.hero-title {
+  background-image: url("/IMG/bg-title-headtext-overlay.png");
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: top;
+}
+
+.para-hero {
+  margin-top: 20px;
+  color: var(--black-t2);
+  background-color: var(--gray-t2);
+  padding: 12px;
+  border: 3px solid white;
+}
+
+.date-hero {
+  font-size: 1.2rem;
+}
+
+.hero-location {
+  color: var(--black-t3);
 }

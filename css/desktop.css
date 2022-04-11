@@ -85,3 +85,22 @@
   background-color: var(--orange-t2);
   color: var(--white);
 }
+
+/* hero-section */
+
+#hero-sec {
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.hero-title {
+  font-size: 8vw;
+  line-height: 8vw;
+  background-size: cover;
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.para-hero {
+  width: 70%;
+  border: 4px solid white;
+}
