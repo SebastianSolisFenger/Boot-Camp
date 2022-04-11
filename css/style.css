@@ -50,6 +50,12 @@ h2 {
   padding: 20vh 20px 100px 20px;
 }
 
+.boot-box h2 {
+  color: var(--orange);
+  font-size: 18px;
+  line-height: 18px;
+}
+
 .hero-title {
   background-image: url("/IMG/bg-title-headtext-overlay.png");
   background-clip: content-box;
@@ -110,9 +116,36 @@ h2 {
   font-size: 22px;
   font-family: "Lato", sans-serif;
   text-align: center;
+  color: white;
+}
+
+.the-underline::after {
+  content: "";
+  display: flex;
+  height: 2px;
+  width: 50px;
+  margin: 0 auto;
+  background-color: var(--orange);
+}
+
+.boot-boxes-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 12px;
 }
 
 .boot-box {
   display: flex;
   align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.596);
+  outline: none;
+  gap: 10px;
+  color: white;
+  transition: outline 4s linear;
+}
+
+.boot-box:hover {
+  outline: 1px solid white;
 }
