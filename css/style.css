@@ -16,11 +16,13 @@
   padding: 0;
   text-decoration: none;
   /* box-sizing: border-box; */
+  transition: all 0.7s linear;
 }
 
 html {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  transition: all 0.7s linear;
 }
 
 a {
