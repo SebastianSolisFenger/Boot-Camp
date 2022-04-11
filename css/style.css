@@ -44,10 +44,12 @@ h2 {
 
 #hero-sec {
   background: url("/IMG/bg-mobile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   background-position: right top;
   padding: 20vh 20px 100px 20px;
+  background-repeat: repeat-x;
+  background-size: contain;
 }
 
 .boot-box h2 {

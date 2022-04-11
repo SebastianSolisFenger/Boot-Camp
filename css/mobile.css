@@ -3,7 +3,7 @@
 }
 
 #hero-sec {
-  height: 42vh;
+  height: 70vh;
 }
 
 .hamb-toggle {
@@ -14,10 +14,11 @@
   left: 0px;
   background-color: white;
   border-bottom: 1.5px solid black;
+  background-image: url("/IMG/toggle-ham.svg");
   border-right: 1.5px solid black;
   border-radius: 15px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 60%;
   background-position: center;
   cursor: pointer;
   z-index: 700;
@@ -26,6 +27,15 @@
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.4) 0 17px 18px;
 }
+
+.hamb-toggle.active {
+  /* background-color: rgb(39, 39, 143); */
+  background-image: url("/IMG/cross-ham.svg");
+  background-size: 60%;
+}
+/* .cross {
+  display: none;
+} */
 
 .hamb-toggle img {
   background-size: 89%;
@@ -68,6 +78,7 @@
   flex-direction: column;
   /* justify-content: center; */
   padding-top: 100px;
+  padding-bottom: 50px;
   margin-top: 50px;
   align-items: center;
   height: 100%;
@@ -111,4 +122,19 @@
 
 .sing-menu-btn {
   display: none;
+}
+
+.hero-title {
+  font-size: 12vw;
+  font-weight: 900;
+  line-height: 12vw;
+  text-transform: uppercase;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.orange-title-mob {
+  display: flex;
+  font-size: 25px;
 }
