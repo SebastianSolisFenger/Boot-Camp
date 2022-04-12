@@ -164,3 +164,8 @@
   flex-direction: column;
   width: 80%;
 }
+
+/* LOGO-SECTION */
+.para-logo-about {
+  display: none;
+}

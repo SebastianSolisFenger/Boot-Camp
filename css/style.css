@@ -16,7 +16,7 @@
   padding: 0;
   text-decoration: none;
   /* box-sizing: border-box; */
-  transition: all 0.7s linear;
+  transition: all 0.4s linear;
 }
 
 html {
@@ -229,7 +229,7 @@ footer {
 
 .about-hero-para {
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   margin-top: 30px;
   padding: 15px;
   text-align: center;
@@ -246,12 +246,22 @@ footer {
   margin-top: 20px;
 }
 
+.about-questions {
+  color: var(--black-t3);
+}
+
+.about-gmail {
+  color: var(--black-t4);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 /* LOGO */
 .the-logo-sec {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 30px;
   gap: 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 20px;
@@ -260,6 +270,7 @@ footer {
 .box-img-logo-container {
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 20px;
+  border-radius: 25px;
 }
 
 .title-logo-about {
@@ -275,9 +286,21 @@ footer {
 .para-logo-about,
 .para-logo-about-2 {
   text-align: center;
+  width: 70%;
 }
 
 /* PAST-BOOTCAMP */
+
+.title-past-bootcamp {
+  margin-top: 35px;
+  font-family: "Lato", sans-serif;
+  color: var(--black-t4);
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  line-height: 55px;
+}
+
 .past-bootcamp-exp {
   display: flex;
   flex-direction: column;
@@ -323,4 +346,13 @@ footer {
 
 .past-bootcamp-exp p {
   text-align: center;
+}
+
+/* About-footer */
+.about-footer-con {
+  background-color: var(--black-t4);
+}
+
+.about-para-footer {
+  color: white;
 }
