@@ -1,64 +1,67 @@
-const hamburgerBtn = document.querySelector(".hamb-toggle");
-const mainMenu = document.querySelector(".menu-box");
-const profContainer = document.getElementById("proffesionals-container");
+const hamburgerBtn = document.querySelector('.hamb-toggle');
+const mainMenu = document.querySelector('.menu-box');
 // const ulList = document.querySelector(".list");
 
-hamburgerBtn.addEventListener("click", () => {
-  mainMenu.classList.toggle("active");
-  hamburgerBtn.classList.toggle("active");
+hamburgerBtn.addEventListener('click', () => {
+  mainMenu.classList.toggle('active');
+  hamburgerBtn.classList.toggle('active');
   // ulList.classList.toggle("activeV");
 });
 
 const proffesionals = [
   {
-    image: "/IMG/proffesionals/Quincy-Larson-photo.jpg",
-    name: "Quincy Larson",
-    position: "Software Engineer",
+    image: '/IMG/proffesionals/Quincy-Larson-photo.jpg',
+    name: 'Quincy Larson',
+    position: 'Software Engineer',
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
   },
   {
-    image: "/IMG/proffesionals/Anita.jpg",
-    name: "Anita",
-    position: "Software Engineer",
+    image: '/IMG/proffesionals/Anita.jpg',
+    name: 'Anita',
+    position: 'Software Engineer',
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
   },
   {
     image:
-      "/IMG/proffesionals/Carol_Shaw_Holding_Gold_River_Raid_Cartridge_(cropped).jpg",
-    name: "Carol Shaw",
-    position: "Software Engineer",
+      '/IMG/proffesionals/Carol_Shaw_Holding_Gold_River_Raid_Cartridge_(cropped).jpg',
+    name: 'Carol Shaw',
+    position: 'Software Engineer',
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
   },
   {
-    image: "/IMG/proffesionals/Goldwasser.jpg",
-    name: "Gold wasser",
-    position: "Software Engineer",
+    image: '/IMG/proffesionals/Goldwasser.jpg',
+    name: 'Gold wasser',
+    position: 'Software Engineer',
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
   },
   {
-    image: "/IMG/proffesionals/color-code.jpg",
-    name: "SinaColor Code",
-    position: "Software Engineer",
+    image: '/IMG/proffesionals/color-code.jpg',
+    name: 'SinaColor Code',
+    position: 'Software Engineer',
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
   },
   {
-    image: "/IMG/proffesionals/midu-dev.jpg",
-    name: "Mide dev",
-    position: "Software Engineer",
+    image: '/IMG/proffesionals/midu-dev.jpg',
+    name: 'Mide dev',
+    position: 'Software Engineer',
     about:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
   },
 ];
+
+const profContainer = document.getElementById('proffesionals-container');
+const viewMoreBtn = document.querySelector('.more-prof');
+let hiddenElements;
 
 profContainer.innerHTML = proffesionals
   .map(
     (proffesional, index) => `
-<div class="proffesional ${index > 1 ? "hidden-mobile" : ""} ">
+<div class="proffesional ${index > 1 ? 'hidden-boxes-mobile' : ''} ">
 <div class="proffesional-photo-container">
 <img src="${proffesional.image}" alt="${proffesional.name}">
 </div>
@@ -68,6 +71,14 @@ profContainer.innerHTML = proffesionals
 <p>${proffesional.about}</p>
 </div>
 </div>
-`
+`,
   )
-  .join("");
+  .join('');
+
+viewMoreBtn.addEventListener('click', () => {
+  hiddenElements = document.querySelectorAll('.hidden-boxes-mobile');
+  hiddenElements.forEach((element) => {
+    element.classList.toggle('hidden-boxes-mobile');
+  });
+  viewMoreBtn.style.display = 'none';
+});

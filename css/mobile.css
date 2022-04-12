@@ -215,3 +215,10 @@
   box-shadow: rgb(0 0 0 / 40%) 10px 10px 20px;
   border: 1px solid white;
 }
+
+/* HIDDEN-PROFFESIONALS-BOXES */
+
+.hidden-boxes-mobile {
+  visibility: hidden;
+  height: 0;
+}
