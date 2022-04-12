@@ -1,3 +1,16 @@
+:root {
+  --orange: #ec5242;
+  --orange-t2: #ef3f27;
+  --orange-t3: #f9422a;
+  --black: #272a31;
+  --black-t2: #5d5d5d;
+  --black-t3: #484848;
+  --black-t4: #262930;
+  --gray: #d3d3d3;
+  --gray-t2: #f7f7f7;
+  --white: #fff;
+}
+
 .menu-box {
   position: fixed;
   height: 90px;
@@ -70,8 +83,8 @@
   gap: 18px;
 }
 
-.primary-menu-box ul a {
-  color: var(--black);
+.chosen-one {
+  color: var(--orange-t2);
 }
 
 .sing-menu-btn {
