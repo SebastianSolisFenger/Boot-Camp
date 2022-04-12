@@ -179,3 +179,20 @@ ABOUT */
 .about-hero-para {
   width: 52vw;
 }
+
+.partners-about {
+  display: none;
+}
+
+/* About-footer-black */
+.about-footer-con-black {
+  background-color: var(--black-t4);
+}
+
+.about-para-footer-black {
+  color: white;
+}
+
+.about-footer-con-white {
+  display: none;
+}
