@@ -214,6 +214,7 @@
   background-color: white;
   box-shadow: rgb(0 0 0 / 40%) 10px 10px 20px;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 /* HIDDEN-PROFFESIONALS-BOXES */
