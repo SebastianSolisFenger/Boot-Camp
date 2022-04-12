@@ -95,19 +95,83 @@ h2 {
   background-image: url(/IMG/bg-the-training-black.png);
 }
 
-/* PROFFESIONALS-SECTION
-#proffesionals {
+/* PROFFESIONALS-SECTION */
+
+#professionals {
+  padding: 40px 25px 40px 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  /* padding: 40px 25px 40px 25px; */
+}
+
+.proffesional {
+  display: flex;
+  gap: 10px;
+  /* flex-direction: row; */
+}
+
+#proffesionals-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+.proffesional-photo-container {
+  width: 30%;
+
+  padding: 10px;
+  background: url("/IMG/bg-black-and-white.jpg");
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+.proffesional-photo-container img {
+  height: 85px;
+  width: 80px;
+  object-fit: cover;
 }
 
 .prof-section-title {
   text-align: center;
   font-family: "Lato", sans-serif;
   font-size: 22px;
-} */
+}
+
+.proffesional-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.proffesional-info h3 {
+  font-size: 18px;
+}
+
+.proffesional-info span {
+  font-size: 14px;
+  color: var(--orange-t2);
+  font-style: italic;
+}
+
+.proffesional-info span::after {
+  height: 1.5px;
+  content: "";
+  display: flex;
+  margin-top: 7px;
+  width: 18px;
+  background-color: var(--black-t3);
+}
+
+.proffesional-info p {
+  font-size: 12px;
+  color: var(--black-t3);
+}
+/* BOOTCAMP */
 
 .boot-section {
   display: flex;
