@@ -153,3 +153,53 @@ h2 {
 .boot-box:hover {
   outline: 1px solid white;
 }
+
+/* PARTNERS */
+
+#partners-sec {
+  padding: 30px 20px 40px 20px;
+  background-color: var(--black-t4);
+}
+
+.partners-img {
+  width: 70px;
+  height: 80px;
+}
+
+.partners-container-sec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.partners-sec-title {
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 18% 35px 18%;
+  gap: 20px;
+}
+
+.footer-img {
+  height: 50px;
+  width: 100%;
+  max-width: 90px;
+}
+
+.para-footer {
+  color: var(--black-t3);
+}
