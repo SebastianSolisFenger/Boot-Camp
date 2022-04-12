@@ -347,12 +347,3 @@ footer {
 .past-bootcamp-exp p {
   text-align: center;
 }
-
-/* About-footer */
-.about-footer-con {
-  background-color: var(--black-t4);
-}
-
-.about-para-footer {
-  color: white;
-}
