@@ -202,3 +202,16 @@
   width: 60%;
   cursor: pointer;
 }
+
+.more-prof {
+  align-self: stretch;
+  padding: 7px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 40%) 10px 10px 20px;
+  border: 1px solid white;
+}

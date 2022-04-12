@@ -215,7 +215,11 @@ ABOUT */
   display: none;
 }
 
-/* ////// */
+/* DISPLAY NO SECTION */
 .register-btn {
+  display: none;
+}
+
+#more-prof {
   display: none;
 }
