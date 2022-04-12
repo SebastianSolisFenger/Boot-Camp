@@ -203,3 +203,124 @@ footer {
 .para-footer {
   color: var(--black-t3);
 }
+
+/* ABOUT */
+
+.about-hero-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-hero-sec h3 {
+  color: var(--orange-t3);
+  font-size: 25px;
+}
+
+.about-title {
+  font-size: 30px;
+  margin-top: 30px;
+  line-height: 40px;
+  color: var(--orange-t3);
+  text-transform: uppercase;
+  font-family: "COCOGOOSE", sans-serif;
+  text-align: center;
+}
+
+.about-hero-para {
+  background-color: white;
+  border: 2px solid black;
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 20px;
+  color: var(--black-t3);
+}
+
+.about-questions-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* LOGO */
+.the-logo-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 20px;
+}
+
+.box-img-logo-container {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 20px;
+}
+
+.title-logo-about {
+  margin-top: 35px;
+  font-family: "Lato", sans-serif;
+  color: var(--black-t4);
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  line-height: 55px;
+}
+
+.para-logo-about,
+.para-logo-about-2 {
+  text-align: center;
+}
+
+/* PAST-BOOTCAMP */
+.past-bootcamp-exp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.past-bootcamp-container-boxes {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 25px;
+}
+
+.past-bootcamp-box {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 20px;
+}
+
+.past-bootcamp-box.first-2020 {
+  background: linear-gradient(to top, #ef3f27ba, #f9422aba),
+    url("/IMG/Past-Bootcamps/ju-training.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.past-bootcamp-box.second-2021 {
+  background: linear-gradient(to top, #ef3f27ba, #f9422aba),
+    url("/IMG/Past-Bootcamps/ju-training.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.past-bootcamp-exp p {
+  text-align: center;
+}

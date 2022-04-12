@@ -169,3 +169,13 @@
   font-size: 15px;
   font-weight: 500;
 }
+
+/* 
+ABOUT */
+
+.about-title {
+  width: 52vw;
+}
+.about-hero-para {
+  width: 52vw;
+}

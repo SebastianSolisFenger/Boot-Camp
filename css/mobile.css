@@ -158,3 +158,9 @@
   display: flex;
   font-size: 25px;
 }
+
+/* PAST-BOOTCAMP */
+.past-bootcamp-container-boxes {
+  flex-direction: column;
+  width: 80%;
+}
