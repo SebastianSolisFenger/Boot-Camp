@@ -91,7 +91,6 @@
 .primary-menu-box ul {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   padding-top: 100px;
   padding-bottom: 21px;
   margin-top: 50px;
@@ -103,7 +102,6 @@
 .primary-menu-box ul .active {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   padding-top: 100px;
   padding-bottom: 50px;
   margin-top: 50px;
