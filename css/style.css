@@ -16,7 +16,6 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  /* box-sizing: border-box; */
   transition: all 0.4s linear;
 }
 
@@ -36,6 +35,7 @@ header {
   max-width: 100vw;
   padding: 25px 20px;
 }
+
 h1,
 h2 {
   font-size: 45px;
@@ -47,8 +47,6 @@ h2 {
 
 #hero-sec {
   background: url("/IMG/bg-mobile.jpg");
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
   background-position: right top;
   padding: 20vh 20px 100px 20px;
   background-repeat: repeat-x;
@@ -89,7 +87,6 @@ h2 {
 /* THE-BOOT-SEC */
 .the-boot-sec {
   display: flex;
-  flex-direction: color;
   align-items: center;
   justify-content: center;
   padding: 30px 20px 40px 20px;
@@ -105,7 +102,6 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 40px 25px 40px 25px; */
 }
 
 .proffesional {
@@ -172,6 +168,7 @@ h2 {
   font-size: 12px;
   color: var(--black-t3);
 }
+
 /* BOOTCAMP */
 
 .boot-section {
@@ -181,7 +178,6 @@ h2 {
 }
 
 .the-boot-title {
-  text-align: center;
   font-size: 22px;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -343,7 +339,6 @@ footer {
   font-family: "Lato", sans-serif;
   color: var(--black-t4);
   font-size: 25px;
-  line-height: 35px;
   text-align: center;
   line-height: 55px;
 }
@@ -361,7 +356,6 @@ footer {
   font-family: "Lato", sans-serif;
   color: var(--black-t4);
   font-size: 25px;
-  line-height: 35px;
   text-align: center;
   line-height: 55px;
 }
@@ -376,7 +370,6 @@ footer {
 
 .past-bootcamp-container-boxes {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   gap: 25px;
 }
@@ -397,7 +390,8 @@ footer {
 
 .past-bootcamp-box.first-2020 {
   background: linear-gradient(to top, #ef3f27ba, #f9422aba),
-    url("/IMG/2020-Kabul.jpeg") no-repeat;
+    url("/IMG/2020-Kabul.jpeg");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   transition: 0.5s linear;
@@ -419,6 +413,7 @@ footer {
   transform: scale(1.1);
   background-blend-mode: multiply;
 }
+
 .past-bootcamp-exp p {
   text-align: center;
 }
