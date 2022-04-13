@@ -452,6 +452,7 @@ footer {
   overflow: hidden;
   width: 75%;
   box-shadow: rgba(0, 0, 0, 0.4) 20px 30px 30px;
+  transition: transform 400ms ease-in-out;
 }
 
 #sec-past-events .other-programs .program img {
@@ -475,8 +476,6 @@ footer {
   inset: 0;
   mix-blend-mode: multiply;
   background-color: var(--redish);
-
-  /* width: 40%; */
 }
 
 #sec-past-events .other-programs .program h3 {
