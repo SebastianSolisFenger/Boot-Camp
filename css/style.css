@@ -60,7 +60,7 @@ h2 {
 }
 
 .hero-title {
-  background-image: url("/IMG/bg-title-headtext-overlay.png");
+  background-image: url("../IMG/bg-title-headtext-overlay.png");
   background-clip: content-box;
   -webkit-background-clip: text;
   color: transparent;
@@ -92,7 +92,7 @@ h2 {
   padding: 30px 20px 40px 20px;
   background-color: var(--black-t4);
   background-size: 48px;
-  background-image: url(/IMG/bg-the-training-black.png);
+  background-image: url("../IMG/bg-the-training-black.png");
 }
 
 /* PROFFESIONALS-SECTION */
