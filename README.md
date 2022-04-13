@@ -10,8 +10,8 @@
 
 ## Live Demo
 
-[Live Demo Link](https://wuletawwonte.github.io/web-development-course)
-![Web Development Course](https://user-images.githubusercontent.com/12524453/157881717-9fae4966-65b1-41a7-92ca-ba04deeed176.png)
+[Live Demo Link](https://sebastiansolisfenger.github.io/Boot-Camp/)
+![Web Development Course]()
 
 ## Setup
 
