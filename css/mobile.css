@@ -27,7 +27,7 @@
   left: 0;
   background-color: white;
   border-bottom: 1.5px solid black;
-  background-image: url("/IMG/toggle-ham.svg");
+  background-image: url("../IMG/toggle-ham.svg");
   border-right: 1.5px solid black;
   border-radius: 15px;
   background-repeat: no-repeat;
