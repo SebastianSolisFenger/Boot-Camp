@@ -11,7 +11,6 @@
 ## Live Demo
 
 [Live Demo Link](https://sebastiansolisfenger.github.io/Boot-Camp/)
-![Web Development Course]()
 
 ## Setup
 
