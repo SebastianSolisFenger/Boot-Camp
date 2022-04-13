@@ -219,6 +219,10 @@
 
 /* HIDDEN-PROFFESIONALS-BOXES */
 
+.proffesional {
+  width: 90%;
+}
+
 .hidden-boxes-mobile {
   visibility: hidden;
   height: 0;

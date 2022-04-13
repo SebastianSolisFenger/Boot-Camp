@@ -111,7 +111,6 @@ h2 {
 .proffesional {
   display: flex;
   gap: 10px;
-  /* flex-direction: row; */
 }
 
 #proffesionals-container {
@@ -121,12 +120,11 @@ h2 {
   flex-wrap: wrap;
   gap: 15px;
   width: 100%;
+  align-items: center;
   justify-content: center;
 }
 
 .proffesional-photo-container {
-  width: 30%;
-
   padding: 10px;
   background: url("/IMG/bg-black-and-white.jpg");
   background-repeat: no-repeat;

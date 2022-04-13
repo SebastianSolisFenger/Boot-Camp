@@ -10,45 +10,45 @@ const proffesionals = [
   {
     image: '/IMG/proffesionals/Quincy-Larson-photo.jpg',
     name: 'Quincy Larson',
-    position: 'Software Engineer',
+    position: 'Software Engineer & founder of freeCodeCamp.org.',
     about:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+      'Founded freeCodeCamp.org, a community of millions of people who learn to code together .',
   },
   {
     image: '/IMG/proffesionals/Anita.jpg',
     name: 'Anita',
-    position: 'Software Engineer',
+    position: 'American computer scientist',
     about:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+      'She founded the Institute for Women and Technology and the Grace Hopper Celebration of Women in Computing.',
   },
   {
     image:
       '/IMG/proffesionals/Carol_Shaw_Holding_Gold_River_Raid_Cartridge_(cropped).jpg',
     name: 'Carol Shaw',
-    position: 'Software Engineer',
+    position: 'Video game designer',
     about:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+      'One of the first female game designers and programmers in the video game industry.',
   },
   {
     image: '/IMG/proffesionals/Goldwasser.jpg',
-    name: 'Gold wasser',
+    name: 'Shafi Goldwasser ',
     position: 'Software Engineer',
     about:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+      'Laid the complexity-theoretic foundations for the science of cryptography',
   },
   {
     image: '/IMG/proffesionals/color-code.jpg',
-    name: 'SinaColor Code',
+    name: 'Sina Jazayeri',
     position: 'Software Engineer',
     about:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+      '16+ years of experience as an SWE focused on architecture, user experience, testability, and resilience.',
   },
   {
     image: '/IMG/proffesionals/midu-dev.jpg',
-    name: 'Mide dev',
+    name: 'Midudev',
     position: 'Software Engineer',
     about:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+      'Development JAVASCRIPT, FULL STACK with React, Node.js, HTML, CSS, Tailwind, Next.js and Deno.',
   },
 ];
 
