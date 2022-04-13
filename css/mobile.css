@@ -23,8 +23,8 @@
   width: 70px;
   height: 70px;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   background-color: white;
   border-bottom: 1.5px solid black;
   background-image: url("/IMG/toggle-ham.svg");
@@ -98,7 +98,7 @@
   align-items: center;
   height: 100%;
   height: 100vh;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .secondary-menu-box {
