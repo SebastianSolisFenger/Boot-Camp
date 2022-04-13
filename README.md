@@ -21,7 +21,7 @@
 👤 **Sebastian Solis**
 
 - GitHub: [@SebastianSolisFenger](https://github.com/SebastianSolisFenger)
-- Twitter:[@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter:[@twitterhandle](https://twitter.com/SolisFenger)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/sebastian-solis-2712731a5/)
 
 ### Contributors
