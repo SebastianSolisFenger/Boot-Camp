@@ -17,6 +17,7 @@
 
 #hero-sec {
   height: 65vh;
+  background-size: cover;
 }
 
 .hamb-toggle {
