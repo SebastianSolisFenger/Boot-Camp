@@ -75,6 +75,7 @@ h2 {
   background-color: var(--gray-t2);
   padding: 12px;
   border: 3px solid white;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 10px;
 }
 
 .date-hero {
@@ -452,6 +453,7 @@ footer {
   position: relative;
   overflow: hidden;
   width: 75%;
+  box-shadow: rgba(0, 0, 0, 0.4) 20px 30px 30px;
 }
 
 #sec-past-events .other-programs .program img {
