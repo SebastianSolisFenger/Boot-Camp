@@ -16,7 +16,7 @@
 }
 
 #hero-sec {
-  height: 70vh;
+  height: 65vh;
 }
 
 .hamb-toggle {
@@ -222,4 +222,19 @@
 .hidden-boxes-mobile {
   visibility: hidden;
   height: 0;
+}
+
+#sec-past-events .other-programs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 90vw;
+  flex-wrap: wrap;
+  z-index: -100px;
+}
+
+.past-bootcamp-exp p {
+  width: 80%;
 }
