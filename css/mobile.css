@@ -37,6 +37,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  opacity: 60%;
 }
 
 .hamb-toggle.active {
@@ -65,6 +66,7 @@
   position: fixed;
   justify-content: center;
   transition: all 0.3s ease;
+  z-index: 200;
 }
 
 .primary-menu-box {

@@ -219,12 +219,13 @@ h2 {
 
 #partners-sec {
   padding: 30px 20px 40px 20px;
-  background-color: var(--black-t4);
+  background-color: var(--black-t3);
 }
 
 .partners-img {
-  width: 70px;
-  height: 80px;
+  width: 110px;
+  height: 35px;
+  opacity: 60%;
 }
 
 .partners-container-sec {
@@ -241,7 +242,7 @@ h2 {
   font-size: 22px;
   font-family: "Lato", sans-serif;
   text-align: center;
-  color: white;
+  color: #9b9b9b;
 }
 
 /* FOOTER */
