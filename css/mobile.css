@@ -43,7 +43,7 @@
 }
 
 .hamb-toggle.active {
-  background-image: url("/IMG/cross-ham.svg");
+  background-image: url("../IMG/cross-ham.svg");
   background-size: 60%;
 }
 
@@ -62,7 +62,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("/IMG/bg-mobile.jpg");
+  background: url("../IMG/bg-mobile.jpg");
   background-position: right top;
   background-size: contain;
   position: fixed;
