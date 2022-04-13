@@ -186,7 +186,7 @@
 
 /* proffesionals */
 .proffesional {
-  width: 45%;
+  width: 48%;
 }
 
 /* 
@@ -227,4 +227,5 @@ ABOUT */
 
 #sec-past-events .other-programs {
   display: flex;
+  z-index: -200;
 }

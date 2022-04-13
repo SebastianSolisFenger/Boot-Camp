@@ -93,7 +93,7 @@
   flex-direction: column;
   /* justify-content: center; */
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 21px;
   margin-top: 50px;
   align-items: center;
   height: 100%;
@@ -236,7 +236,7 @@
   gap: 1rem;
   width: 90vw;
   flex-wrap: wrap;
-  z-index: -100px;
+  z-index: -100;
 }
 
 .past-bootcamp-exp p {
