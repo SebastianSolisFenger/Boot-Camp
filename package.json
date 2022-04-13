@@ -1,0 +1,34 @@
+{
+  "name": "boot-camp",
+  "version": "1.0.0",
+  "description": "A website specifically designed for a web development training company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webhint": "npx hint .",
+    "stylelint": "npx stylelint **/*.{css,scss}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianSolisFenger/Boot-Camp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianSolisFenger/Boot-Camp/issues"
+  },
+  "homepage": "https://github.com/SebastianSolisFenger/Boot-Camp#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^6.0.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
