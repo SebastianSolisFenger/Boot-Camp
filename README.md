@@ -12,14 +12,14 @@
 
 [Live Demo Link](https://sebastiansolisfenger.github.io/Boot-Camp/)
 
-I have attached the link to the Loom Video showing how the video works.
-- https://www.loom.com/share/b47f9ad22129461eb8716b8b30236374
-
 ## Screenshots
 ![Captura de pantalla 2022-04-13 - 13 55 12](https://user-images.githubusercontent.com/88522494/163231579-b3fa0bbe-0c20-4d93-a035-f7660843e45e.png)
 
 
 ![Captura de pantalla 2022-04-13 - 13 52 37](https://user-images.githubusercontent.com/88522494/163231756-ee3b869f-c169-4386-901c-64b2ab991310.png)
+
+I have attached the link to the Loom Video showing how the video works.
+- https://www.loom.com/share/b47f9ad22129461eb8716b8b30236374
 
 ## Setup
 
