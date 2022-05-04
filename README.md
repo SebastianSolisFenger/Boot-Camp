@@ -21,9 +21,15 @@
 I have attached the link to the Loom Video showing how the video works.
 - https://www.loom.com/share/b47f9ad22129461eb8716b8b30236374
 
-## Setup
+# Install Instruction
 
-1. Clone the project from github and run "npm start" command and it will run the project localy.
+1. Open your terminal and `cd` to a proper location.
+2. Clone the Repo on you computer using `git clone git@github.com:SebastianSolisFenger/Boot-Camp.git`
+3. Make sure you have JavaScript installed; use `js -v` .
+4. Cd to the project directory`cd Boot-Camp` .
+5. Use `node -v` to check if you have node instaled
+6. Install the dependencies in the local node_modules folder with `npm install`
+7. Then `npm start`
 
 ## Authors
 
