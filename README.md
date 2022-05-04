@@ -31,7 +31,7 @@ I have attached the link to the Loom Video showing how the video works.
 6. Install the dependencies in the local node_modules folder with `npm install`
 7. Then `npm start`
 
-## Authors
+## Author
 
 👤 **Sebastian Solis**
 
