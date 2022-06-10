@@ -18,8 +18,8 @@
 
 ![Captura de pantalla 2022-04-13 - 13 52 37](https://user-images.githubusercontent.com/88522494/163231756-ee3b869f-c169-4386-901c-64b2ab991310.png)
 
-I have attached the link to the Loom Video showing how the video works.
-- https://www.loom.com/share/b47f9ad22129461eb8716b8b30236374
+<!-- I have attached the link to the Loom Video showing how the video works.
+- https://www.loom.com/share/b47f9ad22129461eb8716b8b30236374 -->
 
 # Install Instruction
 
