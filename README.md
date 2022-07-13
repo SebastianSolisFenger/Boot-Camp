@@ -37,7 +37,7 @@
 
 - GitHub: [@SebastianSolisFenger](https://github.com/SebastianSolisFenger)
 - Twitter:[@SolisFenger](https://twitter.com/SolisFenger)
-- LinkedIn: [@SebastianSolis](https://www.linkedin.com/in/sebastian-solis-2712731a5/)
+- LinkedIn: [@SebastianSolis](https://www.linkedin.com/in/sebastiansolisfenger/)
 
 ### Contributors
 
